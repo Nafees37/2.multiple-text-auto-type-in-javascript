@@ -1,0 +1,1 @@
+# 2.multiple-text-auto-type-in-javascript
