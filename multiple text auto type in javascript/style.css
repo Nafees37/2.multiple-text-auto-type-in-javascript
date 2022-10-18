@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+b {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    line-height: 600px;
+    display: block;
+}
+
+b span {
+    color: tomato;
+}
+
+b::after {
+    border-right: 3px solid tomato;
+    margin-left: 15px;
+    content: "";
+    animation: borderLine 0.5s infinite;
+}
+
+@keyframes borderLine {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
